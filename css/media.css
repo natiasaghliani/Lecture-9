@@ -1,0 +1,14 @@
+@media (max-width: 414px) {
+   .nav {
+    display: none;
+   }
+
+   .bar {
+    display: block;
+    font-size: 30px;
+    color: rgb(128, 240, 132);
+   }
+} 
+
+/* @medi */
+
