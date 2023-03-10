@@ -1,13 +1,15 @@
 
 .header1 {
-	width: 1360px;
+	max-width: 1360px;
+    width: 100%;
 	height: 81px;
 	margin: 0 auto;
 }
 
 .container {
 	
-	width: 1360px;
+	max-width: 1360px;
+    width: 100%;
 	height: 81px;
 	padding: 25px 96px 25px 95px;
 	display: flex;
@@ -21,7 +23,8 @@
 }
 
 ul {
-	width: 507px;
+	max-width: 507px;
+    width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -30,6 +33,7 @@ li{
 	font-size: 15px;
 	color: #303134;
 	font-weight: 400;
+    margin-right: 15px;
 }
 
 li:hover {
@@ -54,17 +58,22 @@ li:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
-	width: 1360px;
-	height: 600px;
+	max-width: 1360px;
+    width: 100%;
+	/* height: 600px; */
+
+    padding: 200px 0;
+    text-align: center;
 
 	position: relative;
 
 }
 
 h1 {
-	position: absolute;
-	top: 226px;
-	left: 504px;
+	/* position: absolute; */
+	/* top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%); */
 	font-size: 52px;
 	font-weight: 400;
 	color: #FFFFFF;
@@ -77,9 +86,10 @@ h1:hover {
 }
 
 .p-h1 {
-	position: absolute;
-	top: 320px;
-	left: 523px;
+	/* position: absolute; */
+	/* top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%); */
 	font-size: 18px;
 	font-weight: 400;
 	color: #FFFFFF;
@@ -100,7 +110,8 @@ h1:hover {
 
 .container1 {
 	margin: 0 auto;
-	width: 1170px;
+	max-width: 1170px;
+    width: 100%;
 	margin-top: 80px;
 	display: flex;
 	justify-content: space-between;
@@ -142,7 +153,8 @@ h3 {
 .cards {
 	display: flex;
   	flex-wrap: wrap;
-  	width: 880px;
+  	max-width: 880px;
+    width: 100%;
 }
 
 .card {
