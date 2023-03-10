@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 .header1 {
 	max-width: 1360px;
@@ -12,21 +19,32 @@
     width: 100%;
 	height: 81px;
 	padding: 25px 96px 25px 95px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	top: 0;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	position: fixed;
 	z-index: 100;
-	box-shadow: 1px 1px 32px 1px #000000;
+	-webkit-box-shadow: 1px 1px 32px 1px #000000;
+	        box-shadow: 1px 1px 32px 1px #000000;
 	background-color: white;
 }
 
 ul {
 	max-width: 507px;
     width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 li{
@@ -41,7 +59,8 @@ li:hover {
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 5px;
-	box-shadow: 1px 1px 3px 1px #66CDAA;
+	-webkit-box-shadow: 1px 1px 3px 1px #66CDAA;
+	        box-shadow: 1px 1px 3px 1px #66CDAA;
 	cursor: pointer;
 }
 
@@ -113,8 +132,12 @@ h1:hover {
 	max-width: 1170px;
     width: 100%;
 	margin-top: 80px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .text {
@@ -123,7 +146,8 @@ h1:hover {
 }
 
 .text:hover {
-	box-shadow: 1px 1px 10px 1px #43C6DB;
+	-webkit-box-shadow: 1px 1px 10px 1px #43C6DB;
+	        box-shadow: 1px 1px 10px 1px #43C6DB;
 }
 
 h2 {
@@ -151,8 +175,11 @@ h3 {
 }
 
 .cards {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-  	flex-wrap: wrap;
+  	-ms-flex-wrap: wrap;
+  	    flex-wrap: wrap;
   	max-width: 880px;
     width: 100%;
 }
@@ -164,7 +191,8 @@ h3 {
 }
 
 .card:hover {
-	box-shadow: 1px 1px 10px 1px #D291BC;
+	-webkit-box-shadow: 1px 1px 10px 1px #D291BC;
+	        box-shadow: 1px 1px 10px 1px #D291BC;
 }
 
 .card:nth-child(1):hover {
